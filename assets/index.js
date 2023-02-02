@@ -18,7 +18,7 @@ const projectQuestions = [
     { name: 'link', message: 'Provide link to deployed application'},
     { name: 'credits', message: 'Add credits of any co-contributers'}
   ];
-];
+;
 
 // Create a function to write README file
 function writeToFile(fileName, data) {
@@ -49,12 +49,13 @@ function getInput() {
         writeToFile(fileName, answers);
       });
   }
-
-  // get answers to questions
-  getInput();
-
-// Create a function to initialize app
-function node index.js() {}
-
-// Function call to initialize app
-node index.js();
+  
+  // function to initialize program
+  function index.js () {
+  
+    // get answers to questions
+    getInput();
+  }
+  
+  // function call to initialize program
+  Node index.js ();
